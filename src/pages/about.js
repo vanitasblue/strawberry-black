@@ -1,6 +1,6 @@
-import { Link } from "gatsby";
 import * as React from "react";
 import Layout from "../components/layout";
+import Seo from "../components/seo";
 
 const AboutPage = () => {
   return (
@@ -13,7 +13,7 @@ const AboutPage = () => {
 };
 
 export const Head = () => {
-  return <title>Hi there 🍓</title>;
+  return <Seo title="Hi there" />;
 };
 
 export default AboutPage;
