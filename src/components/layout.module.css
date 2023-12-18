@@ -1,7 +1,8 @@
 .container {
   margin: auto;
-  max-width: 500px;
-  font-family: sans-serif;
+  max-width: 900px;
+  font-family: omnigothic, sans-serif;
+  font-weight: 400;
 }
 .heading {
   color: rebeccapurple;
@@ -18,8 +19,9 @@
   color: #000;
 }
 .site-title {
+  font-family: fields, serif;
   font-size: 3rem;
-  color: #808080;
-  font-weight: 700;
+  color: maroon;
+  font-weight: 600;
   margin: 3rem 0;
 }

@@ -15,11 +15,11 @@ const Layout = ({ pageTitle, children }) => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
   `);
-  console.log(data);
   return (
     <div className={container}>
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
